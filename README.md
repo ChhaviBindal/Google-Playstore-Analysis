@@ -1,3 +1,2 @@
-#Google Play Store Apps Analysis & Sentiment Study
-This repository contains a comprehensive data analytics project that performs Exploratory data analysis (EDA) and sentiment analysison the Google Play Store app dataset. 
-The goal is to uncover trends in app categories, user engagement, and feedback to help developers, product teams, and marketers make data-driven decisions.
+# Climate-Change-trends
+This repository contains an analysis of climate change trends using historical temperature data. The analysis focuses on data preprocessing, trend visualization, and correlation analysis using Python.
