@@ -1,0 +1,25 @@
+This project performs a detailed analysis of mobile applications available on the Google Play Store. 
+It includes data preprocessing, feature extraction, exploratory analysis, and sentiment analysis on user reviews to uncover app trends, 
+user engagement factors, and customer feedback patterns.
+
+Key Features
+1. Data Preprocessing:
+-Handled missing values in critical columns like Rating, Size, and Type.
+-Cleaned and converted non-numeric fields such as Installs, Price, and Size into numerical format.
+-Removed duplicates and inconsistencies from app entries for accurate analysis.
+2. Feature Engineering:
+-Created Size_MB column by converting KB and MB values into a unified format.
+-Extracted key app-level metrics such as installs per category and average rating per genre.
+-Calculated correlation between Installs, Reviews, and Rating to identify strong engagement signals.
+3. Data Visualization & Insights:
+-Visualized distributions of app ratings, install counts, and app sizes.
+-Identified dominant app categories like FAMILY, GAME, and TOOLS.
+-Highlighted patterns: apps with higher reviews tend to have higher installs, while app size and price have minimal influence on popularity.
+4. Sentiment Analysis (NLP):
+-Applied TextBlob to 64,000+ translated user reviews to calculate sentiment polarity.
+-Classified reviews into Positive, Neutral, and Negative sentiment categories.
+-Found ~60% of user reviews to be positive, indicating general satisfaction with top-rated apps.
+5. Insights for Developers:
+-Free apps dominate in installs compared to paid apps.
+-Users appreciate functionality, performance, and ad-free experiences.
+-Frequent crashes, bugs, or excessive ads lead to negative feedback.
